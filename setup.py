@@ -25,5 +25,5 @@ setup(
     packages=find_packages(exclude=("examples",)),
     python_requires='>=3.6',
     include_package_data=True,
-    install_requires=["urlparse", "hashlib", "hmac"],
+    install_requires=["urlparse"],
 )
