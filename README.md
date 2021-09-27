@@ -5,7 +5,7 @@ Miinto is a fashion luxury marketplace.
 
 For more information see the [Miinto Group](https://www.miinto-group.com/) website.
 
--- THIS IS NOT AN OFFICIAL BASE CODE FROM MIINTO --
+-- THIS IS NOT AN OFFICIAL CODEBASE FROM MIINTO --
 
 # installation
 
