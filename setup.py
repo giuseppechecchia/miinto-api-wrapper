@@ -8,7 +8,7 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="miinto-api-wrapper",
-    version="1.0.0",
+    version="1.0.3",
     description="A simple and stupid Miinto API wrapper",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -25,5 +25,5 @@ setup(
     packages=find_packages(exclude=("examples",)),
     python_requires='>=3.6',
     include_package_data=True,
-    install_requires=["urlparse"],
+    install_requires=["urlparse2"],
 )
