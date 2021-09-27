@@ -230,7 +230,7 @@ class MiintoApi:
         }
 
         sig_result = self.generate_signature(data)
-        result = self.miinto_http_request(sig_result, True)
+        result = self.miinto_http_request(shop_id, sig_result, True)
 
         return result
 
@@ -250,6 +250,6 @@ class MiintoApi:
         }
 
         sig_result = self.generate_signature(data)
-        result = self.miinto_http_request(sig_result)
+        result = self.miinto_http_request(shop_id, sig_result)
 
         return shop_id, result
