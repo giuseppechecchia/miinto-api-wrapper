@@ -1,18 +1,24 @@
-# miinto-api-python-wrapper
-Change your Odoo 13 backend color easily
+# miinto-api-wrapper
+Miinto API Wrapper is a simple python wrapper for Miinto API.
+
+Miinto is a fashion luxury marketplace.
+
+For more information see the [Miinto Group](https://www.miinto-group.com/) website.
 
 # installation
 
-pip install miinto-api
+pip install miinto-api-wrapper
 
 # Disclaimer
 
-This deployment is NOT completed but it can be use in production
+This deployment is NOT completed - just some baisc HTTPs calls are wrapped. 
+
+Anyway it can be used in production.
 
 ## Requirements
 
 python 3.x required
-urlparse, hashlib and hmac required
+urlparse required
 
 ### Kind of rapid instructions:
 
