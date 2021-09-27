@@ -1,4 +1,4 @@
-import miintoapi
+from miintoapi.miintoapi import MiintoApi
 
 auth = {
     'identifier': "",
@@ -17,7 +17,7 @@ auth = {
 
 stocks = []
 
-MiintoApi = miintoapi(auth)
+MiintoApi = MiintoApi(auth)
 auth_data = MiintoApi.auth_data
 
 shop_details = []
