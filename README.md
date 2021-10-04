@@ -13,7 +13,7 @@ pip install miinto-api-wrapper
 
 # Disclaimer
 
-This deployment is NOT completed - just some baisc HTTPs calls are wrapped. 
+This deployment is NOT completed - just some basic HTTPs calls are wrapped. 
 
 Anyway it can be used in production.
 
