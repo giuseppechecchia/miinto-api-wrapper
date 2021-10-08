@@ -211,14 +211,19 @@ class MiintoApi:
 
         return result
 
-    def get_collection(self, shop_id, order_type='transfers'):
+    def get_collection(
+        self, 
+        shop_id, 
+        order_type='transfers',
+        order_status='pending'
+    ):
 
         # TODO: need to manage pagination where
         # totalItemCount > limit
         # do the call again with offset param
 
         endpoint = f'/shops/{shop_id}/{order_type}'
-        query = '?status%5B%5D=pending&sort=-createdAt'
+        query = f'?status%5B%5D={order_status}&sort=-createdAt'
 
         data = {
             'method': 'GET',
